@@ -171,6 +171,9 @@ public class App {
 
     //todo Task 10
     public void transposedNumbers(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Number: ");
+        int number = scanner.nextInt();
 
         // input your solution here
     }
