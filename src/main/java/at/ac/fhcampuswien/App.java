@@ -175,6 +175,15 @@ public class App {
         System.out.print("Number: ");
         int number = scanner.nextInt();
 
+        if (number < 1000 && number > 0) {
+           int one = number%10;
+           number = number/10;
+           int ten = number%10;
+           int hundert = number/10;
+            System.out.println(one + "" +ten + ""+ hundert);
+        }
+
+
         // input your solution here
     }
 
